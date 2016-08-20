@@ -6,4 +6,8 @@ class PagesController < ApplicationController
   def about
     
   end
+  
+  def my_account
+    
+  end
 end

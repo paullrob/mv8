@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'pages/home'
   get "about" => "pages#about" # creates about_path
+  get "my_account" => "pages#my_account"
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.

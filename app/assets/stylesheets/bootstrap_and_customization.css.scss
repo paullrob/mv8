@@ -1,3 +1,9 @@
+$body-bg: #fff;
+$navbar-height: 35px;
+$navbar-default-bg: #1D72AD;
+$navbar-default-link-color: #fff;
+$link-color: #fff;
+
 @import 'bootstrap';
 
 
@@ -6,12 +12,12 @@
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  /*border-top: 1px solid #eaeaea; */
   color: #777;
 }
 
 footer a {
-  color: #555;
+  color: #333;
 }
 
 footer a:hover {
