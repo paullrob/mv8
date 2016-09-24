@@ -1,13 +1,15 @@
+/* Navbar Sizing and Styling*/
 $body-bg: #fff;
 $navbar-height: 35px;
 $navbar-default-bg: #1D72AD;
 $navbar-default-link-color: #fff;
 $link-color: #fff;
+/* Navbar Sizing and Styling*/
 
 @import 'bootstrap';
 
 
-/* footer */
+/* footer Start*/
 
 footer {
   margin-top: 45px;
@@ -38,3 +40,4 @@ footer ul li {
   margin-left: 15px;
 }
 
+/* footer End */
