@@ -1,14 +1,23 @@
 Rails.application.routes.draw do
-  get 'pages/home'
+  get 'pages/homepage'
   get "about" => "pages#about" # creates about_path
+  get "contact" => "pages#contact"
+  get "privacy" => "pages#privacy"
+  get "terms" => "pages#terms"
   get "my_account" => "pages#my_account"
+  get "home" => "pages#home"
+  get "inbox" => "pages#inbox"
+  get "sign_in" => "pages#sign_in"
+  get "notifications" => "pages#notifications"
+  get "welcome" => "pages#welcome"
+  get "author_bio" => "pages#author_bio"
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'pages#home'
+  root 'pages#homepage'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
